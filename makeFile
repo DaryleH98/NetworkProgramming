@@ -1,0 +1,6 @@
+all:
+	gcc wrc-server.c -o wrc-server
+wrc-server:
+	gcc wrc-server.c -o wrc-server
+clean:
+	rm *.o wrc-server
